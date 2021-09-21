@@ -1,8 +1,8 @@
 x = 13.949999999999999999 #STEP 1: BY OVERFLOWING THE VALUE 
-print(type(x))
 print(x)
+print(type(x))
 
-g = float("{0:.2f}".format(x)) #STEP 2: CONVERTING THE VALUE WITHOUT CALLING THE ROUND FUNCTION
+g = float("{0:.2f}".format(x)) #STEP 2: CONVERTING THE VALUE WITHOUT CALLING THE ROUND FUNCTION; increase value of 2f to 3f for 3 digits, etc
 print(g)
 print(x == g)
 
