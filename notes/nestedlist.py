@@ -12,7 +12,8 @@ position = input("Where do you want to put the treasure? ")
 position=int(position)
 map[(position%10)-1][int(position/10)-1]= "X"
 
-#IMPORTANT: PYTHON vs JAVA. Python categorises stuffs in column, row wise, whereas Java categorises stuffs in row, column wise.
+#the values are inverted because, we are taking the input of the columns first, then the row number
+#Eg: 31, means row 1, column 3.
 
 #Write your code above this row 👆
 
@@ -20,9 +21,3 @@ map[(position%10)-1][int(position/10)-1]= "X"
 print(f"{row1}\n{row2}\n{row3}")
 
 
-
-# Python list module: 
-# <listname>  [list column name] [ list row name] 
-
-# Java ARRAY module:
-# <array name>[row name] [ column name]
