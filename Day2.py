@@ -14,5 +14,5 @@ total_bill= round(total_bill,people)
 print("The total bill after considering the taxes are:"+ format(total_bill,f".{people}f"))
 
 bill_each=total_bill/people
-bill_each= "{:.2f}".format(bill_each)
+bill_each= "{:.2f}".format(bill_each) #random-str function, refernce in notes
 print(f"\nBill to be paid by {people} people after considering the taxes is : {bill_each} each")
