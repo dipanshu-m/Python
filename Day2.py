@@ -15,4 +15,4 @@ print("The total bill after considering the taxes are:"+ format(total_bill,f".{p
 
 bill_each=total_bill/people
 bill_each= "{:.2f}".format(bill_each) #random-str function, refernce in notes
-print(f"\nBill to be paid by {people} people after considering the taxes is : {bill_each} each")
+print(f"\nBill to be paid by {people} people after considering the taxes is : {bill_each} each") #f-string
