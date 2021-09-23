@@ -49,3 +49,5 @@ elif(comp==2 and choice=="rock"):
   print(f"Your choice: {rock}\n--------------------------\nComputer's choice: {paper}\nCOMPUTER WINS! Better luck next time :D")
 elif(comp==3 and choice=="paper"):
   print(f"Your choice: {paper}\n--------------------------\nComputer's choice: {scissors}\nCOMPUTER WINS! Better luck next time :D")
+else:
+  print("You entered an invalid choice; You lose")
