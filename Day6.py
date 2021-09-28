@@ -14,6 +14,10 @@ def left_is_clear():
 def turn():
     turn_left();
     turn_left();
+    
+while(front_is_clear()): #Extra work, to fix out an infinite loop glitch in the program
+    move(); #EXPLANANTION: THE BOT WILL HIT A WALL EVERYTIME IT RUNS AND TURNS TO A NEW DIRECTION SO THAT IT DOESNT FALL INT TO THE GLITCH(ALL THE 4 POINTS)
+turn_left();
 
 while(not at_goal()):    
     if(right_is_clear()): #if right
